@@ -1,0 +1,2 @@
+filename,mean_time_s,min_time_s,max_time_s,std_time_s,audio_duration_s,mean_rt_factor,runs
+tmp.wav,0.092452,0.082501,0.147003,0.012020,4.3770,0.021122,25
