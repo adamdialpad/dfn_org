@@ -161,6 +161,14 @@ python DeepFilterNet/df/enhance.py -m DeepFilterNet path/to/noisy_audio.wav
 
 # Enhance audio with DeepFilterNet2
 python DeepFilterNet/df/enhance.py -m DeepFilterNet2 path/to/noisy_audio.wav
+
+
+# test without AMX
+python DeepFilterNet/df/enhance_test.py audios/tmp.wav --output-dir audios/ --out-csv audios/timing.csv
+
+# test with AMX
+python DeepFilterNet/df/enhance_test.py audios/tmp.wav --output-dir audios/ --out-csv audios/timing2.csv --enable-ipex
+
 ```
 
 ### Use DeepFilterNet within your Python script
